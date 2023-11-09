@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "default", "dirt"
 locale                   : "de-DE"
 title                    : "Ingride The Artist"
 title_separator          : "-"
-subtitle                 : "This is the subtitle"
+subtitle                 : "Ich kreiere handgemachte Tonfiguren."
 name                     : "Ingride Mateen"
 description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -104,10 +104,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Ingride Mateen"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  location         : "Gütersloh"
   email            :
   links:
     - label: "Email"
@@ -121,7 +121,7 @@ author:
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://m.facebook.com/ingride.mateen/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url: "https://github.com/"
@@ -290,21 +290,3 @@ defaults:
       comments: # true
       share: true
       related: true
-
-gallery:
-  - url: /assets/images/unsplash-gallery-image-1.jpg
-    image_path: /assets/images/unsplash-gallery-image-1-th.jpg
-    alt: "placeholder image 1"
-    title: "Image 1 title caption"
-  - url: /assets/images/unsplash-gallery-image-2.jpg
-    image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Image 2 title caption"
-  - url: /assets/images/unsplash-gallery-image-3.jpg
-    image_path: /assets/images/unsplash-gallery-image-3-th.jpg
-    alt: "placeholder image 3"
-    title: "Image 3 title caption"
-  - url: /assets/images/unsplash-gallery-image-4.jpg
-    image_path: /assets/images/unsplash-gallery-image-4-th.jpg
-    alt: "placeholder image 4"
-    title: "Image 4 title caption"
