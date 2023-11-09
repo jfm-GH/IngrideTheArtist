@@ -1,0 +1,52 @@
+---
+title: Events
+permalink: /event-list/
+---
+
+<div class="ev-grid">
+    {% for event in site.data.events %}
+      <div class="ev-date">
+        <div class="ev-content">
+          <p>
+            {{ event.date | date: "%A" }} <!-- This formats the date to show the day name -->
+            <br><strong> {{ event.date | date: "%d. " }}</strong><br>{{ event.date | date: "%b %Y" }}
+          </p>
+        </div>
+      </div>
+  
+      <div class="ev-grid-list-box">
+        <div class="ev-grid-list">
+          <div class="ev-item">
+            <span class="ev-category">
+              <a href="{{ event.detail_page }}">{{ event.category }}</a>
+            </span>
+            <div class="ev-content">
+              <time>
+                <a class="ev-detail-date" href="{{ event.detail_page }}" title="Mehr Termine für den {{ event.date }}">
+                  {{ event.date | date: "%d.%m.%Y" }}
+                </a>
+              </time>
+              
+              <div class="event-list-title-wrapper">
+                <h3 class="event-list-title">
+                  <a class="ev-detail-link" href="{{ event.detail_page }}" title="Weiter auf {{ event.name }}">
+                    {{ event.name }}
+                  </a>
+                </h3>
+              </div>
+  
+              <p>{{ event.description | truncate: 160 }}</p> <!-- Truncate the description to a certain number of characters -->
+              <address>
+                <a>{{ event.location }}</a>
+              </address>
+  
+              <a href="{{ event.detail_page }}" class="btn btn-primary" title="Zur Veranstaltung">
+                alle Details
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+  

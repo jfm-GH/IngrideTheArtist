@@ -1,0 +1,50 @@
+---
+layout: collection
+title: "Events & Locations"
+permalink: /event-list-table/
+order: 3
+---
+
+
+<h1>
+  Ihr wollt mich kennenlernen?
+</h1>
+<p>
+  Hier werde ich demnächst anzutreffen sein:
+</p>
+<table class="table">
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Event</th>
+        <th>Description</th>
+        <th>Location</th>
+        <th>Details</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for event in site.data.events %}
+        <tr>
+          <td>
+            <time datetime="{{ event.date | date_to_xmlschema }}">
+              {{ event.date | date: "%A" }}<br>
+              <strong>{{ event.date | date: "%d. %b %Y" }}</strong>
+            </time>
+          </td>
+          <td>
+            <a href="{{ event.detail_page }}">{{ event.name }}</a>
+            <br>
+            <span class="event-category">{{ event.category }}</span>
+          </td>
+          <td>{{ event.description | truncate: 160 }}</td>
+          <td>{{ event.location }}</td>
+          <td>
+            <a href="{{ event.detail_page }}" class="btn btn-primary" title="Zur Veranstaltung">
+              Alle Details
+            </a>
+          </td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  

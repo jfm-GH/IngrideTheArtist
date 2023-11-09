@@ -7,7 +7,7 @@ main:
   - title: "Kreationen"
     url: /kreationen/
   - title: "Events"
-    url: /events/
+    url: /event-list-table/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
