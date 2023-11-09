@@ -1,5 +1,5 @@
 ---
-excerpt: "Wo Ton zu Leben erwacht: Einzigartige Figuren, handgeformt mit Leidenschaft."
+excerpt: "Wo Ton zum Leben erwacht: Einzigartige Figuren, handgeformt mit Leidenschaft."
 title: "Ingride - Kreativgeist in Ton"
 layout: collection
 header:
