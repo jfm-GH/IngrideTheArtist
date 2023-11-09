@@ -4,15 +4,16 @@ main:
     url: /
   - title: "Kontakt"
     url: /kontakt/
+  - title: "Kreationen"
+    url: /kreationen/
+  - title: "Events"
+    url: /events/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
   #   url: /year-archive/
-  - title: "Events"
-    url: /events/
   # - title: "Sitemap"
   #   url: /sitemap/
-  - title: "Gallery"
-    url: /gallery/
-  - title: "collection"
-    url: /combined_content_page/
+
+#  - title: "collection"
+#    url: /combined_content_page/

@@ -1,6 +1,7 @@
 ---
-title: "Gallery"
-permalink: /gallery/
+title: "Kreationen"
+header: /assets/img/20221226_152820.jpg
+permalink: /kreationen/
 order: 2
 layout: collection
 gallery:

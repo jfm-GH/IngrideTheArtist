@@ -1,6 +1,6 @@
 ---
 layout: collection
-title: "Events & Locations."
+title: "Events & Locations"
 permalink: /events/
 order: 3
 ---
